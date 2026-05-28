@@ -1,0 +1,39 @@
+body{
+    background-color: blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+    form {
+        background-color: aliceblue;
+        padding:60px;
+        border-radius: 50px;
+        box-shadow: 10px;
+    }
+
+    h1 {
+        color: blue;
+    }
+
+    input {
+        padding: 5px;
+        border-radius: 10px;
+        border-width: 1px;
+    }
+
+    select {
+        padding: 6px;
+        border-radius: 30px;
+    }
+
+    textarea {
+        padding: 6px;
+        border-radius: 10px;
+    }
+
+    button {
+        padding: 5px;
+        border-radius: 10px;
+    }

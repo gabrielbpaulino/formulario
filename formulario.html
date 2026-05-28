@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <link rel="stylesheet" href="formulario.css">
+</head>
+<body>
+    <form>
+
+        <h1>Inscrições SENAI</h1>
+
+            <h3>Dados Pessoais</h3>
+
+            <label for="Nome">Nome Completo:</label><br>
+            <input type="text" id="Nome" name="Nome"><br><br>
+
+            <label for="Data">Data de Nascimento:</label><br>
+            <input type="date" id="Data" name="Data"><br><br>
+
+            <label for="CPF">CPF:</label><br>
+            <input type="number" id="CPF" name="CPF"><br><br>
+
+            <label for="RG">RG:</label><br>
+            <input type="number" id="RG" name="RG"><br><br>
+
+            <label for="Gênero">Gênero:</label><br>
+            <input type="radio" id="Gênero" name="Gênero">Masculino<br>
+            <input type="radio" id="Gênero" name="Gênero">Feminino<br>
+            <input type="radio" id="Gênero" name="Gênero">Outro<br><br>
+
+            <label for="Civil">Estado Civil:</label><br>
+            <input type="radio" id="Civil" name="Civil">Solteiro(a)<br>
+            <input type="radio" id="Civil" name="Civil">Casado(a)<br>
+            <input type="radio" id="Civil" name="Civil">Divorciado(a)<br>
+            <input type="radio" id="Civil" name="Civil">Viúvo(a)<br><br>
+
+            <label for="Nacionalidade">Nacionalidade:</label><br>
+            <input type="text" id="Nacionalidade" name="Nacionalidade"><br><br>
+
+            <label for="Naturalidade">Naturalidade:</label><br>
+            <input type="text" id="Naturalidade" name="Naturalidade"><br>
+
+            <h3>Endereço Completo</h3>
+
+            <label for="Logradouro">Logradouro:</label><br>
+            <input type="text" id="Logradouro" name="Logradouro"><br><br>
+
+            <label for="Numero">Número:</label><br>
+            <input type="number" id="Numero" name="Numero"><br><br>
+
+            <label for="Complemento">Complemento:</label><br>
+            <input type="text" id="Complemento" name="Complemento"><br><br>
+
+            <label for="Bairro">Bairro:</label><br>
+            <input type="text" id="Bairro" name="Bairro"><br><br>
+
+            <label for="Cidade">Cidade:</label><br>
+            <input type="text" id="Cidade" name="Cidade"><br><br>
+
+            <label for="UF">UF:</label><br>
+            <select id="UF" name="UF" required>
+                <option value="" disabled selected>Selecione</option>
+                <option value="AC">Acre</option>
+                <option value="AL">Alagoas</option>
+                <option value="AP">Amapá</option>
+                <option value="AM">Amazonas</option>
+                <option value="BA">Bahia</option>
+                <option value="CE">Ceará</option>
+                <option value="DF">Distrito Federal</option>
+                <option value="ES">Espírito Santo</option>
+                <option value="GO">Goiás</option>
+                <option value="MA">Maranhão</option>
+                <option value="MT">Mato Grosso</option>
+                <option value="MS">Mato Grosso do Sul</option>
+                <option value="MG">Minas Gerais</option>
+                <option value="PA">Pará</option>
+                <option value="PB">Paraíba</option>
+                <option value="PR">Paraná</option>
+                <option value="PE">Pernambuco</option>
+                <option value="PI">Piauí</option>
+                <option value="RJ">Rio de Janeiro</option>
+                <option value="RN">Rio Grande do Norte</option>
+                <option value="RS">Rio Grande do Sul</option>
+                <option value="RO">Rondônia</option>
+                <option value="RR">Roraima</option>
+                <option value="SC">Santa Catarina</option>
+                <option value="SP">São Paulo</option>
+                <option value="SE">Sergipe</option>
+                <option value="TO">Tocantins</option>
+            </select><br><br>
+
+            <label for="CEP">CEP:</label><br>
+            <input type="number" id="CEP" name="CEP"><br>
+
+        
+            <h3>Contato</h3>
+
+            <label for="Tel">Telefone:</label><br>
+            <input type="tel" id="Tel" name="Tel"><br><br>
+
+            <label for="Wha">Whatsapp:</label><br>
+            <input type="tel" id="Wha" name="Wha"><br><br>
+
+            <label for="E-mail">E-mail:</label><br>
+            <input type="text" id="E-mail" name="E-mail"><br><br>
+
+            <label for="Linkedin">Linkedin:</label><br>
+            <input type="text" id="Linkedin" name="Linkedin"><br>
+
+            <h3>Outras Informações (opcional)</h3>
+
+            <label for="CNH">Possui CNH:</label><br>
+            <input type="radio" id="CNH" name="CNH">Sim<br>
+            <input type="radio" id="CNH" name="CNH">Não<br><br>
+
+            <label for="Categoria">Categoria:</label><br>
+            <input type="checkbox" id="Categoria" name="Categoria">A
+            <input type="checkbox" id="Categoria" name="Categoria">B
+            <input type="checkbox" id="Categoria" name="Categoria">C
+            <input type="checkbox" id="Categoria" name="Categoria">D
+            <input type="checkbox" id="Categoria" name="Categoria">E<br><br>
+
+            <label for="Tipo">Tipo Sanguíneo:</label><br>
+            <select id="Tipo" name="Tipo" required>
+                <option value="" disabled selected>Selecione o tipo</option>
+                <option value="A+">A+</option>
+                <option value="A-">A-</option>
+                <option value="B+">B+</option>
+                <option value="B-">B-</option>
+                <option value="AB+">AB+</option>
+                <option value="AB-">AB-</option>
+                <option value="O+">O+</option>
+                <option value="O-">O-</option>
+            </select><br><br>
+
+            <label for="CDP">CDP:</label><br>
+            <input type="radio" id="CDP" name="CDP">Sim<br>
+            <input type="radio" id="CDP" name="CDP">Não<br><br>
+
+            <label for="Obs">Observação:</label><br>
+            <textarea name="Obs" id="Obs"></textarea><br><br>
+
+            <button>Enviar Inscrição</button><br><br>
+            <button>Cancelar</button><br><br>
+    </form>
+
+</body>
+</html>
